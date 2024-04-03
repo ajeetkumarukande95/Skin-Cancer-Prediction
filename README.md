@@ -2,6 +2,9 @@
 
 This project provides a simple web interface for predicting whether a skin lesion is malignant or benign using a pre-trained deep learning model. Users can upload an image containing a skin lesion, and the model will make a prediction based on the uploaded image.
 
+# Data Source
+!kaggle datasets download -d fanconic/skin-cancer-malignant-vs-benign
+
 ## Getting Started
 
 To run the web interface locally, follow these steps:
