@@ -25,11 +25,7 @@ iface = gr.Interface(
     outputs=gr.Textbox(label="Predicted Results"),
     title="Skin Cancer Prediction",
     description="Upload an image containing skin lesion to predict if it is malignant or benign.",
-    theme="huggingface",
-    allow_flagging=False,
-    examples=[
-        ["example.jpg"],  # Replace "example.jpg" with actual example image file path
-    ]
+    theme="huggingface"
 )
 
 iface.launch(share=True)
